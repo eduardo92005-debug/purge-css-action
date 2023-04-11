@@ -1,2 +1,3 @@
 #!/bin/sh -l
-echo "$INPUT_TEST_VAR"
+echo "PRINTOU:"
+echo "$TEST_VAR"
