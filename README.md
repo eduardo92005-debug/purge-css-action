@@ -27,8 +27,8 @@ jobs:
           css-path: ${{ env.CSS_PATH }}
           html-path: ${{ env.HTML_PATH }}
         run: |
-          echo " teste ${{ env.CSS_PATH }}
-          echo " teste 2 ${{ env.HTML_PATH }}
+          echo " teste ${{ env.CSS_PATH }} "
+          echo " teste 2 ${{ env.HTML_PATH }} "
 
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
