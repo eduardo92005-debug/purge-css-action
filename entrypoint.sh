@@ -1,2 +1,2 @@
 #!/bin/sh -l
-echo " teste ${{ env.CSS_PATH }} "
+print(os.getenv('INPUT_TEST_VAR'))
