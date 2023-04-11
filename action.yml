@@ -1,0 +1,5 @@
+name: 'Minify All Action'
+description: 'Minify JS,CSS and HTML files pushed to a branch'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
