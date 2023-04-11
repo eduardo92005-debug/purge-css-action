@@ -1,5 +1,9 @@
-name: 'Minify All Action'
-description: 'Minify JS,CSS and HTML files pushed to a branch'
+name: 'Purge css action'
+description: 'Remove unused selectors from css files'
+inputs: 
+  test_var:
+    description: 'A test variable'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
